@@ -8,8 +8,8 @@ buildscript {
     }
 }
 
-apply plugin: 'com.android.application'
 apply plugin: 'me.tatarka.retrolambda'
+apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23

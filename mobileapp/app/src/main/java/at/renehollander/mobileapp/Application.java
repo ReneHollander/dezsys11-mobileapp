@@ -5,13 +5,14 @@ import com.loopj.android.http.JsonHttpResponseHandler;
 
 import org.json.JSONObject;
 
+import at.renehollander.mobileapp.util.Callback;
 import cz.msebera.android.httpclient.Header;
 import cz.msebera.android.httpclient.entity.ContentType;
 import cz.msebera.android.httpclient.entity.StringEntity;
 
 public class Application extends android.app.Application {
 
-    private static final String API_URL = "http://10.0.105.190:8080";
+    private static final String API_URL = "http://10.0.0.51:8080";
 
     private AsyncHttpClient client;
 

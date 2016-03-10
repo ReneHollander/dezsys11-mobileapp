@@ -1,4 +1,4 @@
-package at.renehollander.mobileapp;
+package at.renehollander.mobileapp.activities;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -14,6 +14,10 @@ import android.view.inputmethod.EditorInfo;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
+
+import at.renehollander.mobileapp.Application;
+import at.renehollander.mobileapp.R;
+import at.renehollander.mobileapp.util.Util;
 
 /**
  * A register screen that offers register via email/password.

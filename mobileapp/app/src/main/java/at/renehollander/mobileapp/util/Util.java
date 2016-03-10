@@ -1,4 +1,4 @@
-package at.renehollander.mobileapp;
+package at.renehollander.mobileapp.util;
 
 import android.app.Activity;
 import android.app.AlertDialog;

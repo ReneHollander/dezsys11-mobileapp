@@ -1,4 +1,4 @@
-package at.renehollander.mobileapp;
+package at.renehollander.mobileapp.util;
 
 public interface Callback<E, D> {
 
