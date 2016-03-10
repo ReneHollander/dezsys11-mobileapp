@@ -12,7 +12,7 @@ import cz.msebera.android.httpclient.entity.StringEntity;
 
 public class Application extends android.app.Application {
 
-    private static final String API_URL = "http://10.0.0.51:8080";
+    private static final String API_URL = "https://dezsys11-mobileapp.herokuapp.com";
 
     private AsyncHttpClient client;
 
